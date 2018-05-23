@@ -1,0 +1,733 @@
+* {
+    transition: all .2s linear;
+}
+
+a {
+    text-decoration: none;
+    color: #111111;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('../fonts/HelveticaNeueCyr-Bold.ttf') format('turetype');
+}
+
+@font-face {
+    font-family: 'Helvetica-Light';
+    src: url('../fonts/HelveticaNeueCyr-Light.ttf') format('turetype');
+}
+
+.top-box {
+    height: 700px;
+    background: url(../img/top-bg.png);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+}
+
+.top-box .text-box {
+    max-width: 900px;
+    margin: 150px auto;
+}
+
+.top-box .text-box h1 {
+    color: #c7c7c7;
+    font: 48px Helvetica-Bold;
+}
+
+.top-box .text-box p {
+    color: #ff5e5e;
+    font: 16px Helvetica-Light;
+}
+
+.info-box {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -30px;
+}
+
+.info-box .info-item {
+    width: 270px;
+    height: 200px;
+    background: #ccc;
+    box-shadow: 0px 0px 10px;
+}
+
+.top-box .info-box .pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
+    background: url(../img/icon_engine.png);
+    height: 100px;
+    width: 110px;
+    margin: 15px auto 15px;
+}
+
+.top-box .info-box p {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.box-cars-Ukraine {
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto 50px;
+    width: 80%;
+}
+
+.box-cars-Ukraine .left h2 {
+    font: 36px Helvetica-Bold;
+    color: #4c4c4c;
+    margin: 0;
+}
+
+.box-cars-Ukraine .left p {
+    font: 36px Helvetoca-Light, sans-serif;
+    color: #4c4c4c;
+    margin: 0;
+}
+
+.box-cars-Ukraine .right-box p {
+    margin: 40px 0 70px 0;
+}
+
+.box-cars-Ukraine .left .bottom-line {
+    margin: 30px 0 0 0;
+    width: 170px;
+    border-bottom: 2px solid #4c4c4c;
+}
+
+.box-cars-Ukraine .right-box {
+    width: 700px;
+}
+
+.box-cars-Ukraine .right-box .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.box-cars-Ukraine .right-box .buttons a {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    border: 1px dashed #ccc;
+}
+
+.box-cars-Ukraine .right-box .buttons a:hover {
+    box-shadow: 0 0 10px;
+}
+
+.box-cars-Ukraine .right-box .buttons .text {
+    font: 16px Helvetica-Light;
+    color: #000;
+    margin: 0 auto;
+}
+
+.box-cars-Ukraine .right-box .buttons .way-pic {
+    background: url(../img/way-btn.png) 50% no-repeat;
+    background-size: cover;
+    width: 25%;
+    padding-top: 25%;
+}
+
+.box-cars-Ukraine .right-box .buttons .phone-pic {
+    background: url(../img/phone-btn.png) 50% no-repeat;
+    background-size: cover;
+    width: 25%;
+    padding-top: 25%;
+}
+
+.box-cars-Ukraine .right-box .buttons .info-pic {
+    background: url(../img/info-btn.png) 50% no-repeat;
+    background-size: cover;
+    width: 25%;
+    padding-top: 25%;
+}
+
+@font-face {
+    font-family: ReformaBold;
+    src: url('../fonts/ReformaGroteskBoldC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ReformaLight;
+    src: url('../fonts/ReformaGroteskLightC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ReformaDemi;
+    src: url('../fonts/ReformaGroteskDemiC.ttf') format('truetype');
+}
+
+.item {
+    width: 19%;
+    margin: 0 0 0 30px;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    opacity: 0.3;
+}
+
+.item.active {
+    opacity: 1;
+}
+
+.item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 40px #444343;
+}
+
+.item>.img {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto1.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img2 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto2.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img3 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto3.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img4 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto4.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img5 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto5.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img6 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto6.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img7 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto7.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item>.img8 {
+    display: block;
+    padding-top: 64.5%;
+    background: url(../img/auto8.jpg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item .middle {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.item .middle>span {
+    text-align: center;
+    font: 36px ReformaBold;
+    line-height: 1em;
+    padding: 10px 0 6px;
+}
+
+.item .middle .price {
+    width: 50%;
+    color: #efefef;
+    background: #910000;
+}
+
+.item .middle .but {
+    border: 1px solid #000;
+    width: calc(50% - 2px);
+    color: #4c4c4c;
+    font: 19px Open Sans;
+    text-transform: lowercase;
+    overflow: hidden;
+    position: relative;
+    transition: 0.75s;
+    z-index: 10;
+}
+
+.item .middle .but:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    top: 0;
+    transform: translateX(-120%) skewX(-20deg);
+    transition: 0.75s;
+    left: 0;
+    z-index: -1;
+}
+
+.item:hover .middle .but {
+    color: #fff;
+}
+
+.item:hover .middle .but:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    top: 0;
+    transform: translateX(0%) skewX(0deg);
+    transition: 0.75s;
+}
+
+.item .middle .arrow {
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    margin-top: -1px;
+    backface-visibility: hidden;
+    transition: 0.3s;
+    width: 100%;
+    transform: translateX(-100%);
+    left: 0;
+}
+
+.item .arrow:before,
+.item .arrow:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 8px;
+    background: #000;
+    right: 0;
+    transition: 0.3s;
+}
+
+.item .arrow {
+    opacity: 0;
+    z-index: 2;
+}
+
+.item .arrow:before {
+    transform: rotate(0deg);
+    transform-origin: right top;
+}
+
+.item .arrow:after {
+    transform: rotate(0deg);
+    transform-origin: right bottom;
+}
+
+.item:hover .arrow {
+    width: 10%;
+    transition: all 1s .2s, opacity 0.5s 0.3s;
+    transform: translateX(0);
+    left: 85%;
+    background: #fff;
+    opacity: 1;
+}
+
+.item:hover .arrow:before {
+    transform: rotate(45deg);
+    transition: 0.5s 1s;
+    background: #fff;
+}
+
+.item:hover .arrow:after {
+    transform: rotate(-45deg);
+    transition: 0.5s 1s;
+    background: #fff;
+}
+
+.item .bottom {
+    border: 1px solid #000;
+    display: block;
+}
+
+.item .bottom>.title {
+    font: 20px ReformaBold;
+    color: #4c4c4c;
+    letter-spacing: 2px;
+    display: block;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.item .bottom .wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.item .bottom .wrap .avg {
+    display: block;
+    border-right: 1px solid #000;
+    width: calc(29% - 12px);
+    padding-left: 10px;
+}
+
+.item .bottom .wrap .avg .img {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url(../img/avg-icon.png) 50% no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.item .bottom .wrap .avg .main,
+.item .bottom .wrap .engine .main,
+.item .bottom .wrap .code .main {
+    color: #393939;
+    font: 30px ReformaDemi;
+}
+
+.item .bottom .wrap .avg .main sup,
+.item .bottom .wrap .engine sup {
+    font: 20px ReformaLight;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item .bottom .wrap .avg .title,
+.item .bottom .wrap .engine .title,
+.item .bottom .wrap .code .title {
+    font: 16px ReformaDemi;
+    color: #4c4c4c;
+    text-transform: uppercase;
+}
+
+.item .bottom .wrap .engine {
+    display: block;
+    border-right: 1px solid #000;
+    padding: 0 7px;
+    width: calc(15.3% - 15px);
+}
+
+.item .bottom .wrap .engine .img {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url(../img/eng-icon.png) 50% no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+.item .bottom .wrap .trans {
+    display: block;
+    border-right: 1px solid #000;
+    padding: 0 7px;
+    width: calc(15.5% - 15px);
+}
+
+.item .bottom .wrap .trans .img {
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+    background: url(../img/trans-icon.png) 50% no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.item .bottom .wrap .trans .title {
+    font: 16px ReformaDemi;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    margin-top: 9px;
+    display: block;
+}
+
+.item .bottom .wrap .code {
+    display: block;
+    padding: 10px 12px 0 15px;
+    width: calc(41% - 27px)
+}
+
+.bottom-testDrive {
+    width: 80%;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 10px 0;
+}
+
+.bottom-testDrive div {
+    margin: 0 30px
+}
+
+.bottom-testDrive .red-text {
+    font: 24px Helvetica-Bold;
+    color: #970000;
+}
+
+.bottom-testDrive .text-light {
+    font: 18px Helvetica-LIght;
+}
+
+.bottom-testDrive .call-back a {
+    border: 1px solid #000;
+    padding: 15px 30px;
+    font: 18px Helvetica-LIght;
+}
+
+.bottom-testDrive .call-back a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.box-cars-Ukraine .stor-box {
+    width: 600px;
+}
+
+.box-cars-Ukraine .right-box .storage {
+    text-align: left;
+    margin: 0 auto;
+    font: 18px Helvetica-LIght;
+}
+
+.info-box2 {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.info-box2 .info-item2 {
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px;
+}
+
+.info-box2 .pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
+    background: url(../img/icon_engine.png);
+    height: 100px;
+    width: 110px;
+    margin: 15px auto 15px;
+}
+
+.info-box2 p {
+    text-align: left;
+    padding: 0 10px;
+    font: 22px Helvetica-Bold;
+}
+
+.box-bg-bottom {
+    height: 790px;
+    background: url(../img/bg-bot-pic.png) no-repeat;
+    background-size: cover;
+    padding: 45px 0 0 0;
+}
+
+.box-bg-bottom .layer h2 {
+    font: 24px Helvetica-Bold;
+    padding: 0 20px 0 0;
+}
+
+.box-bg-bottom .layer p {
+    width: 600px;
+    margin: 0 auto;
+    font: 24px Helvetica-Light;
+}
+
+.layer {
+    overflow: scroll;
+    margin: 0 auto;
+    width: 650px;
+    height: 375px;
+    border-right: 1px solid #ccc;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px red;
+}
+
+.feed-back {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.feed-back form .mail {
+    background: transparent;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+}
+
+.feed-back .mail-btn {
+    width: 160px;
+    height: 50px;
+    background: #35cc62;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.car-box {
+    padding: 30px 0;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.car-box.ukraine .slides-wrapper {
+    position: absolute;
+    left: 0px;
+    display: flex;
+}
+
+.car-box.ukraine2 .slides-wrapper2 {
+    position: absolute;
+    left: 0px;
+    display: flex;
+}
+
+.car-box.ukraine3 .slides-wrapper3 {
+    position: absolute;
+    left: 0px;
+    display: flex;
+}
+
+.car-box .btn-left {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-84%, -50%);
+    background: url(../img/left-pointer.png) 50% no-repeat;
+    background-size: contain;
+    z-index: 20;
+    height: 35px;
+    width: 35px;
+}
+
+.car-box .btn-right {
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(84%, -50%);
+    background: url(../img/right-pointer.png) 50% no-repeat;
+    background-size: contain;
+    z-index: 20;
+    height: 35px;
+    width: 35px;
+}
+
+.car-box .btn-right2 {
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(84%, -50%);
+    background: url(../img/right-pointer.png) 50% no-repeat;
+    background-size: contain;
+    z-index: 20;
+    height: 35px;
+    width: 35px;
+}
+
+.car-box .btn-left2 {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-84%, -50%);
+    background: url(../img/left-pointer.png) 50% no-repeat;
+    background-size: contain;
+    z-index: 20;
+    height: 35px;
+    width: 35px;
+}
+
+.car-box .btn-right3 {
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(84%, -50%);
+    background: url(../img/right-pointer.png) 50% no-repeat;
+    background-size: contain;
+    z-index: 20;
+    height: 35px;
+    width: 35px;
+}
+
+.car-box .btn-left3 {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-84%, -50%);
+    background: url(../img/left-pointer.png) 50% no-repeat;
+    background-size: contain;
+    z-index: 20;
+    height: 35px;
+    width: 35px;
+}
+
+.car-box .slides-wrapper .left-op-block {
+    /* position: absolute; */
+    width: 13%;
+    height: 100%;
+    background: #ffffff70;
+    z-index: 10;
+}
+
+.car-box .slides-wrapper .right-op-block {
+    /* position: absolute; */
+    width: 13%;
+    height: 100%;
+    background: #ffffff70;
+    z-index: 10;
+}
