@@ -209,3 +209,61 @@ document.querySelector('.car-box.ukraine3 .btn-left3').onclick = function() {
         }
     }
 }
+// main menu
+let mainMenuItems = document.querySelectorAll('.header .header-middle nav a');
+let mainMenuOpen = document.querySelectorAll('.header .submenu');
+let mainMenuBg = document.querySelector('.header .submenubg');
+mainMenuBg.onmouseover = function() {
+    mainMenuOpen[0].classList.remove('op');
+    mainMenuOpen[1].classList.remove('op');
+    mainMenuBg.classList.remove('op');
+    setTimeout(function(){
+        mainMenuOpen[0].classList.remove('active');
+        mainMenuOpen[1].classList.remove('active');
+        mainMenuBg.classList.remove('active');
+    },400)
+}
+mainMenuItems[0].onmouseover = function() {
+    mainMenuOpen[0].classList.add('active');
+    mainMenuBg.classList.add('active');
+    mainMenuOpen[1].classList.remove('op');
+    setTimeout(function(){
+        mainMenuOpen[0].classList.add('op');
+        mainMenuOpen[1].classList.remove('active');
+        mainMenuBg.classList.add('op');
+    },400)
+}
+mainMenuItems[1].onmouseover = function() {
+    mainMenuOpen[1].classList.add('active');
+    mainMenuBg.classList.add('active');
+    mainMenuOpen[0].classList.remove('op');
+    setTimeout(function(){
+        mainMenuOpen[1].classList.add('op');
+        mainMenuBg.classList.add('op');
+        mainMenuOpen[0].classList.remove('active');
+    },400)
+}
+// smart-menu 
+let sandNav = document.querySelector('.header .header-top .sandwich-navbar');
+let smartMenu = document.querySelector('.header .smart-menu');
+let smartMenuClose = document.querySelector('.header .smart-menu .close');
+sandNav.onclick = function () {
+    if(!smartMenu.classList.contains('active')) {
+        smartMenu.classList.add('active');
+        setTimeout(function(){
+            smartMenu.classList.add('op');
+        })
+    }
+    else {
+        smartMenu.classList.remove('op');
+        setTimeout(function(){
+            smartMenu.classList.remove('active');
+        })
+    }
+}
+smartMenuClose.onclick = function() {
+    smartMenu.classList.remove('op');
+    setTimeout(function(){
+        smartMenu.classList.remove('active');
+    })
+}

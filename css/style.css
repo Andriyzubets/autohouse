@@ -152,6 +152,7 @@ body {
 }
 .header-middle .wrap nav {
     width: 69%;
+    z-index: 100;
 }
 .header-middle .wrap nav ul {
     display: -webkit-flex;
@@ -199,6 +200,10 @@ body {
 .header-middle .wrap nav a:hover:after {
     width: 35%;
 }
+.header-middle .wrap nav ul li:hover >.submenu {
+    display: block;
+    opacity: 1;
+}
 .header-middle .wrap  .cont {
     width: 14.5%;
     display: -webkit-flex;
@@ -212,6 +217,8 @@ body {
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-align-items: center;
+    align-items: center;
 }
 .header-middle .wrap  .cont .tel {
     width: 100%;
@@ -247,18 +254,40 @@ body {
     background-size: contain;
     transform:translate(0,-50%);
 }
+.header .submenubg {
+    z-index: 9;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    opacity: 0;
+}
+.header .submenubg.active {
+    display: block;
+}
+.header .submenubg.active.op {
+    opacity: 1;
+}
 .header .submenu {
     position: absolute;
     width: calc(54% - 70px);
     background: #050600;
-    top: 101%;
+    top: 100%;
     left: 50%;
     z-index: 10;
     transform: translate(-50%,0);
     padding: 10px 35px;
     display: none;
     opacity: 0;
-    transform: translate(0,-50px);
+    transform: translate(-50%,-50px);
+    transition: all .4s ease-in-out;
+}
+.header .submenu.active {
+    display: block;
+}
+.header .submenu.active.op {
+    opacity: 1;
+    transform: translate(-50%,0);
 }
 .header .submenu .wrap {
 
@@ -345,9 +374,17 @@ body {
     background: #050600;
     z-index: 10;
     padding: 0 0 10px;
-   /* display: none;
+    transition: all .2s ease-in-out;
+    display: none;
     opacity: 0;
-    transform: translate(0,-50px);*/
+    transform: translate(0,-50px);
+}
+.header .smart-menu.active {
+    display: block;
+}
+.header .smart-menu.active.op {
+    opacity: 1;
+    transform: translate(0,0);
 }
 .header .smart-menu .wrap {
     width: 320px;
@@ -1491,6 +1528,14 @@ body {
     -ms-align-self: flex-start;
     align-self: flex-start;
 }
+@media screen and (max-width: 1500px) {
+    .header-middle .wrap .cont {
+        width: 21%;
+    }
+    .header-middle .wrap nav {
+        width: 55%;
+    }
+}
 @media screen and (max-width: 1366px) {
     .header-top .wrap, .header-middle .wrap {
         width: calc(100% - 100px);
@@ -1566,6 +1611,7 @@ body {
         justify-content: flex-end;
         -ms-align-items: flex-start;
         align-items: flex-start;
+        cursor: pointer;
     }
     .header-top .wrap .right .sandwich-navbar span {
         position: relative;
@@ -1630,6 +1676,11 @@ body {
     }
     .footer .wrap .copy .devs {
         width: 38%;
+    }
+}
+@media screen and (max-width: 922px) {
+    .header-middle .wrap .cont {
+        width: 40%;
     }
 }
 @media screen and (max-width: 768px){
