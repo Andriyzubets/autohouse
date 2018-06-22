@@ -135,7 +135,7 @@ a:focus, a:hover {
 .header-top .wrap .right .login .img {
     width: 15px;
     padding-top: 15px;
-    background: url(../img/login-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/login-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     margin-right: 10px;
@@ -153,7 +153,7 @@ a:focus, a:hover {
 .header-top .wrap .cart .img {
     width: 20px;
     height: 25px;
-    background: url(../img/shopping-bag.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/shopping-bag.png) 50% no-repeat;
     display: inline-block;
     text-align: center;
     background-size: contain;
@@ -171,7 +171,7 @@ a:focus, a:hover {
 .header-middle .wrap .logo {
     width: 200px;
     height: 55px;
-    background: url(../img/logo-white.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/logo-white.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     margin-right: 5%;
@@ -257,7 +257,7 @@ a:focus, a:hover {
 .header-middle .wrap  .cont .mail {
     width: 25px;
     height: 20px;
-    background: url(../img/mail-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/mail-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -277,7 +277,7 @@ a:focus, a:hover {
     top: 50%;
     width: 20px;
     height: 20px;
-    background: url(../img/phone-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/phone-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     transform:translate(0,-50%);
@@ -431,7 +431,7 @@ main.main {
 }
 .top-box {
     height: 700px;
-    background: url(../img/top-bg.png);
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/top-bg.png);
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -453,7 +453,7 @@ main.main {
 .header .smart-menu .wrap .logo {
     width: 84%;
     padding-top: 20%;
-    background: url(../img/logo-smart.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/logo-smart.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     margin: 22px auto;
@@ -477,27 +477,27 @@ main.main {
     border-radius: 3px;
 }
 .header .smart-menu .wrap .social .goo {
-    background: url(../img/goo-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/goo-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
 .header .smart-menu .wrap .social .tele {
-    background: url(../img/goo-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/goo-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
 .header .smart-menu .wrap .social .insta {
-    background: url(../img/insta-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/insta-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
 .header .smart-menu .wrap .social .you {
-    background: url(../img/you-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/you-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
 .header .smart-menu .wrap .social .fb {
-    background: url(../img/fb-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/fb-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -556,7 +556,7 @@ main.main {
 .pic-2,
 .pic-3,
 .pic-4 {
-    background: url(../img/icon_engine.png);
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/icon_engine.png);
     height: 100px;
     width: 110px;
     margin: 15px auto 15px;
@@ -626,21 +626,21 @@ main.main {
 }
 
 .box-cars-Ukraine .right-box .buttons .way-pic {
-    background: url(../img/way-btn.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/way-btn.png) 50% no-repeat;
     background-size: cover;
     width: 23%;
     padding-top: 23%;
 }
 
 .box-cars-Ukraine .right-box .buttons .phone-pic {
-    background: url(../img/phone-btn.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/phone-btn.png) 50% no-repeat;
     background-size: cover;
     width: 23%;
     padding-top: 23%;
 }
 
 .box-cars-Ukraine .right-box .buttons .info-pic {
-    background: url(../img/info-btn.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/info-btn.png) 50% no-repeat;
     background-size: cover;
     width: 23%;
     padding-top: 23%;
@@ -687,7 +687,7 @@ main.main {
 .item>.img {
     display: block;
     padding-top: 67.8%;
-    background: url(../img/auto1.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto1.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -695,7 +695,7 @@ main.main {
 .item>.img2 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto2.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto2.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -703,7 +703,7 @@ main.main {
 .item>.img3 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto3.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto3.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -711,7 +711,7 @@ main.main {
 .item>.img4 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto4.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto4.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -719,7 +719,7 @@ main.main {
 .item>.img5 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto5.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto5.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -727,7 +727,7 @@ main.main {
 .item>.img6 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto6.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto6.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -735,7 +735,7 @@ main.main {
 .item>.img7 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto7.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto7.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -743,7 +743,7 @@ main.main {
 .item>.img8 {
     display: block;
     padding-top: 64.5%;
-    background: url(../img/auto8.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/auto8.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -912,7 +912,7 @@ main.main {
     width: 18px;
     height: 18px;
     display: block;
-    background: url(../img/avg-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/avg-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -998,7 +998,7 @@ main.main {
     width: 18px;
     height: 18px;
     display: block;
-    background: url(../img/eng-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/eng-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     /*margin-left: 5px;*/
@@ -1026,7 +1026,7 @@ main.main {
     width: 100%;
     padding-top: 100%;
     display: block;
-    background: url(../img/trans-icon.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/trans-icon.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -1127,7 +1127,7 @@ main.main {
 .pic-2,
 .pic-3,
 .pic-4 {
-    background: url(../img/icon_engine.png);
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/icon_engine.png);
     height: 100px;
     width: 110px;
     margin: 15px auto 15px;
@@ -1144,7 +1144,7 @@ main.main {
 }
 
 .box-bg-bottom {
-    /*background: url(../img/bg-bot-pic.png) no-repeat;*/
+    /*background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/bg-bot-pic.png) no-repeat;*/
     background-size: cover;
     padding: 45px 0 ;
 }
@@ -1368,7 +1368,7 @@ main.main {
 }
 /* footer */
 .footer {
-    background: url(../img/footer-lay.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/footer-lay.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     padding: 30px 0 17px;
@@ -1414,7 +1414,7 @@ main.main {
     font: 16px Helvetica-Light, sans-serif;
 }
 .footer .wrap .mailing .mail-submit {
-    background: #d24a43 url(../img/mail-icon.png) 50% no-repeat;
+    background: #d24a43 url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/mail-icon.png) 50% no-repeat;
     background-size: 25px;
     width: 60px;
     height: 60px;
@@ -1453,7 +1453,7 @@ main.main {
 .footer .footer-top .about .logo {
     width: 198px;
     height: 55px;
-    background: url(../img/logo-white.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/logo-white.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     display: block;
@@ -1513,7 +1513,7 @@ main.main {
     height: 50px;
     left: -50px;
     top: 0;
-    background: #d24a43 url(../img/phone-left-icon.png) 50% no-repeat;
+    background: #d24a43 url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/phone-left-icon.png) 50% no-repeat;
     background-size: 20px;
 }
 .footer .footer-top .news {
@@ -1658,14 +1658,14 @@ main.main {
     width: 48.5%;
 }
 .footer .wrap .copy .devs .design .img {
-    background: url(../img/why-not-logo.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/why-not-logo.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     width: 65px;
     height: 45px;
 }
 .footer .wrap .copy .devs .dev .img {
-    background: url(../img/vinit-logo.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/vinit-logo.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     width: 45px;
@@ -1711,7 +1711,7 @@ main.main {
     height: 50px;
     left: -50px;
     top: 0;
-    background: #d24a43 url(../img/phone-left-icon.png) 50% no-repeat;
+    background: #d24a43 url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/phone-left-icon.png) 50% no-repeat;
     background-size: 20px;
 }
 .footer .wrap .smart .banner {
@@ -1751,7 +1751,7 @@ section.map {
 section.map .title .logo {
     width: 100%;
     padding-top: 35%;
-    background: url(../img/logo-smart.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/logo-smart.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     margin-bottom: 30px;
@@ -1801,7 +1801,7 @@ section.map .title .feedback:before {
     height: 40px;
     left: -40px;
     top: 0;
-    background: #d24a43 url(../img/phone-left-icon.png) 50% no-repeat;
+    background: #d24a43 url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/phone-left-icon.png) 50% no-repeat;
     background-size: 20px;
 }
 section.map .gmnoprint img:before {
@@ -1820,7 +1820,7 @@ section.map .gmnoprint img:before {
     display: none;
 }
 .newsBreads, .newsList {
-    background: url(../img/newsLay.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/newsLay.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     border-radius: 0;
@@ -1969,7 +1969,7 @@ section.map .gmnoprint img:before {
     position: absolute;
     width: 15px;
     height: 12px;
-    background: url(../img/arrow-left.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/arrow-left.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     display: block;
@@ -1991,7 +1991,7 @@ section.map .gmnoprint img:before {
     position: absolute;
     width: 15px;
     height: 12px;
-    background: url(../img/arrow-right.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/arrow-right.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     display: block;
@@ -2165,7 +2165,7 @@ section.map .gmnoprint img:before {
     display: block;
     width: 60px;
     padding-top: 60px;
-    background: #d24a43 url(../img/info-icon.png) 50% no-repeat;
+    background: #d24a43 url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/info-icon.png) 50% no-repeat;
     background-size: 30px;
     left: 0;
     top: 50%;
@@ -2175,7 +2175,7 @@ section.map .gmnoprint img:before {
     transform: translate(0,-50%);
 }
 .infoContainer .breadcrumb {
-    background: url(../img/newsLay.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/newsLay.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     border-radius: 0;
@@ -2245,7 +2245,7 @@ section.map .gmnoprint img:before {
     align-items: center;
 }
 .cardItem .breadcrumb, .categoryContainer .breadcrumb {
-    background: url(../img/newsLay.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/newsLay.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     border-radius: 0;
@@ -2472,7 +2472,7 @@ input[type=checkbox], input[type=radio] {
     width: 8px;
     padding-top: 8px;
     transform: translate(0,-50%);
-    background: url(../img/opened-arrow-right.png) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/opened-arrow-right.png) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     transition: all .3s ease-in-out;
@@ -2545,7 +2545,7 @@ input[type=checkbox], input[type=radio] {
     width: 70%;
     margin: 30px auto;
     padding-top: 30%;
-    background: url(../img/oops.jpg) 50% no-repeat;
+    background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/oops.jpg) 50% no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -2688,7 +2688,7 @@ input[type=checkbox], input[type=radio] {
         height: auto;
     }
     .top-box .info-box .pic-1, .pic-2, .pic-3, .pic-4 {
-        background: url(../img/icon_engine.png) 50% no-repeat;
+        background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/icon_engine.png) 50% no-repeat;
         background-size: contain;
         padding-top: 40%;
         width: 50%;
@@ -3141,7 +3141,7 @@ input[type=checkbox], input[type=radio] {
         justify-content: flex-start;
     }
     .info-box2 .pic-1,  .info-box2 .pic-2, .info-box2  .pic-3, .info-box2  .pic-4 {
-        background: url(../img/icon_engine.png) 50% no-repeat;
+        background: url(http://autohouse.org.ua/catalog/view/theme/autohouse/img/icon_engine.png) 50% no-repeat;
         background-size: contain;
         padding-top: 45px;
         width: 45px;
